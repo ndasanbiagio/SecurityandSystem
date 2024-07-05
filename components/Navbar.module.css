@@ -40,13 +40,13 @@
 }
 
 .navItem a:hover {
-  color: orange;
+  color: #ff4500;
 }
 
 .scheduleButton {
   background-color: #004d40;
   color: white;
-  border: none;
+  border: none; 
 }
 
 .scheduleButton:hover {

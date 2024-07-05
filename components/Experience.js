@@ -13,7 +13,7 @@ const Experience = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <h2 className={styles.title}>Experience</h2>
+        <h2 className={styles.title}>Experiencia</h2>
       </div>
       <div className={styles.gridContainer}>
         <div className={styles.grid}>
