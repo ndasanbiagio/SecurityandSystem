@@ -5,7 +5,7 @@ Presentation
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Perfil de Usuario - Nicolás Dasanbiagio
-Este proyecto es una página web de perfil de usuario que incluye información básica, una lista de intereses y una sección de contacto. Está desarrollado con React y Next.js, y utiliza la fuente Ubuntu para todos los textos.
+La idea de este proyecto es crear una página web de perfil del usuario, que incluye información básica, una lista de intereses y una sección de contacto. Está desarrollado con React y Next.js, y utiliza la fuente Ubuntu para todos los textos.
 
 Instalación y Configuración
 Requisitos
