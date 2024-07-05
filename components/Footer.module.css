@@ -1,0 +1,12 @@
+.footer {
+  background-color: #1e1e1e; 
+  color: #ffffff; 
+  padding: 20px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif; 
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.75rem;
+}

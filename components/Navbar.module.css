@@ -1,0 +1,71 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white; 
+  padding: 20px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end; 
+  font-family: 'Ubuntu', sans-serif; 
+}
+
+.scrolled {
+  background-color: white; 
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  margin-right: 50px; 
+}
+
+.navItem {
+  margin-left: 20px;
+  flex: 0 0 auto;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: color 0.3s ease;
+}
+
+.navItem a:hover {
+  color: #ff4500;
+}
+
+.scheduleButton a {
+  background-color: #004d40;
+  color: white;
+  border: none; 
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.scheduleButton a:hover {
+  background-color: #004d40;
+  color: orange;
+}
+
+@media (max-width: 768px) {
+  .navList {
+    justify-content: center;
+    margin-right: 0; 
+  }
+
+  .navItem {
+    margin-left: 10px;
+  }
+
+  .navItem a {
+    padding: 10px;
+  }
+}

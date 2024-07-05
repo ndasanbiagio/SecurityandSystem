@@ -1,0 +1,52 @@
+/* components/Interests.module.css */
+.container {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  color: #333;
+  font-family: 'Ubuntu', sans-serif; 
+  text-align: center; 
+}
+
+.titleSection h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.textSection p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.buttonSection {
+  display: flex;
+  justify-content: center; 
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.behance {
+  background-color: #1769ff;
+}
+
+.dribbble {
+  background-color: #4caf50; 
+}
+
+.dribbble:hover {
+  background-color: #388e3c; 
+}

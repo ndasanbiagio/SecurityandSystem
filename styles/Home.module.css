@@ -1,0 +1,8 @@
+/* styles/Home.module.css */
+.aboutMe {
+  color: green;
+  font-style: italic;
+  font-size: 1.75rem;
+  margin: 20px 0;
+  text-align: center;
+}
