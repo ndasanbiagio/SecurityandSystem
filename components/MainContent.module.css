@@ -1,0 +1,33 @@
+/* components/MainContent.module.css */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.imageSection {
+  flex: 1;
+  padding: 10px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.textSection {
+  flex: 1;
+  padding: 10px;
+}
+
+.textSection h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.textSection p {
+  font-size: 1rem;
+  color: #666;
+}

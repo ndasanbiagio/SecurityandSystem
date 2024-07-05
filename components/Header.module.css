@@ -1,0 +1,46 @@
+/* components/Header.module.css */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header:hover {
+    background-color: #eaeaea;
+  }
+  
+  /* components/About.module.css */
+  .about {
+    padding: 20px;
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about:hover {
+    background-color: #d5d5d5;
+  }
+  
+  /* components/Interests.module.css */
+  .interests {
+    padding: 20px;
+    background-color: #d3d3d3;
+    transition: background-color 0.3s ease;
+  }
+  
+  .interests:hover {
+    background-color: #c8c8c8;
+  }
+  
+  /* components/ContactForm.module.css */
+  .contactForm {
+    padding: 20px;
+    background-color: #cfcfcf;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contactForm:hover {
+    background-color: #c4c4c4;
+  }
+  

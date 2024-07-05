@@ -1,0 +1,66 @@
+/* components/ContactForm.module.css */
+.container {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box; /* Incluir el padding en el tamaño total */
+  margin: 0 auto 50px auto; /* Añadir margen inferior para el footer */
+}
+
+.title {
+  font-size: 2rem;
+  color: #ff4500; /* Color naranja medio rojo fuerte */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espacio entre los elementos del formulario */
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.label {
+  font-size: 1rem;
+  color: #000000; /* Texto negro */
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333333; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  font-size: 1rem;
+  box-sizing: border-box; /* Incluir el padding en el ancho total */
+}
+
+.error {
+  color: #ff0000;
+  font-size: 0.875rem;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333333; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: center; /* Centrar el botón */
+}
+
+.button:hover {
+  background-color: #555555; /* Fondo oscuro más claro al pasar el cursor */
+}

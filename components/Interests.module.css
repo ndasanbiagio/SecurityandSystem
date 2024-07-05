@@ -1,0 +1,50 @@
+/* components/Interests.module.css */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.titleSection h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ff4500; /* Color naranja medio rojo fuerte */
+}
+
+.textSection p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.buttonSection {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #333333; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #555555; /* Fondo oscuro más claro al pasar el cursor */
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  background-color: #111111; /* Fondo oscuro más oscuro al hacer clic */
+}
+
+.behance, .dribbble {
+  width: 120px; /* Asegurar que los botones tengan el mismo tamaño */
+  text-align: center;
+}
