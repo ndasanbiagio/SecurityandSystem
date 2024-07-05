@@ -16,7 +16,7 @@ Clona el repositorio:
 
 bash
 Copiar código
-git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+git clone https://github.com/ndasanbiagio/SecurityandSystem
 Navega al directorio del proyecto:
 
 bash
@@ -53,19 +53,19 @@ Copiar código
 http://localhost:3000
 Funcionamiento
 Navbar
-La barra de navegación (navbar) fija en la parte superior de la página permite acceder rápidamente a las distintas secciones de la página. Los enlaces incluyen "Sobre mí", "Intereses", "Experiencia", "Contacto" y un botón para agendar una reunión que lleva al Calendly de Nicolás.
+La barra de navegación (navbar) fija en la parte superior de la página permite acceder rápidamente a las distintas secciones de la página. Los enlaces incluyen "Sobre mí", "Intereses", "Experiencia", "Contacto" y un botón para agendar una reunión que lleva al Calendly de Nicolás(mio).
 
 Sobre mí
-La sección "Sobre mí" contiene una imagen de perfil y una breve descripción de Nicolás Dasanbiagio, su experiencia y su pasión por el mundo IT.
+La sección "Sobre mí" contiene una imagen de perfil y una breve descripción del Usuario (mia - Nicolás Dasanbiagio), su experiencia y su pasión por el mundo IT.
 
 Intereses
-La sección "Intereses" detalla los intereses de Nicolás, incluyendo la programación, la lectura, los viajes y el aprendizaje continuo de nuevas tecnologías y metodologías de desarrollo. También incluye enlaces a su perfil de LinkedIn y GitHub.
+La sección "Intereses" detalla los intereses del Usuario (mia - Nicolás Dasanbiagio), incluyendo la programación, la lectura, los viajes y el aprendizaje continuo de nuevas tecnologías y metodologías de desarrollo. También incluye enlaces a su perfil de LinkedIn y GitHub.
 
 Experiencia
-La sección "Experiencia" muestra una cronología de las experiencias laborales de Nicolás desde 2017 hasta 2022. Cada tarjeta de experiencia incluye el año y una breve descripción.
+La sección "Experiencia" muestra una cronología de las experiencias laborales del Usuario (mia - Nicolás Dasanbiagio) desde 2017 hasta 2022. Cada tarjeta de experiencia incluye el año y una breve descripción.
 
 Contacto
-La sección "Contacto" contiene un formulario que permite a los visitantes enviar un mensaje a Nicolás. El formulario incluye campos para el nombre, el email y el mensaje, y valida los campos antes de permitir el envío.
+La sección "Contacto" contiene un formulario que permite a los visitantes enviar un mensaje al usuario (hacia mi). El formulario incluye campos para el nombre, el email y el mensaje, y valida los campos antes de permitir el envío.
 
 Footer
 El footer fijo al final de la página incluye un mensaje de copyright con el nombre de Nicolás Dasanbiagio.
