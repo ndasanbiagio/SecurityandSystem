@@ -2,14 +2,14 @@ import { useEffect, useState } from 'react';
 import styles from './Navbar.module.css';
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
-        setIsScrolled(true);
+        setScrolled(true);
       } else {
-        setIsScrolled(false);
+        setScrolled(false);
       }
     };
 
@@ -20,13 +20,15 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ''}`}>
+    <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
       <ul className={styles.navList}>
-        <li className={styles.navItem}><a href="#about">Sobre mí</a></li>
-        <li className={styles.navItem}><a href="#interests">Intereses</a></li>
-        <li className={styles.navItem}><a href="#experience">Experiencia</a></li>
-        <li className={styles.navItem}><a href="#contact">Contacto</a></li>
-        <li className={styles.navItem}><a href="#schedule">Schedule</a></li>
+        <li className={styles.navItem}><a href="#sobre-mi">Sobre mí</a></li>
+        <li className={styles.navItem}><a href="#intereses">Intereses</a></li>
+        <li className={styles.navItem}><a href="#experiencia">Experiencia</a></li>
+        <li className={styles.navItem}><a href="#contacto">Contacto</a></li>
+        <li className={`${styles.navItem} ${styles.scheduleButton}`}>
+          <a href="https://calendly.com/ndasanbiagio" target="_blank" rel="noopener noreferrer">Schedule</a>
+        </li>
       </ul>
     </nav>
   );

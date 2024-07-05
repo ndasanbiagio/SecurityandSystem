@@ -1,20 +1,19 @@
 import styles from './Experience.module.css';
+import Carousel from '../components/Carousel';
 
 const Experience = () => {
   const experiences = [
-    { year: 2017, description: "Descripción de experiencia de 2017" },
-    { year: 2018, description: "Descripción de experiencia de 2018" },
-    { year: 2019, description: "Descripción de experiencia de 2019" },
-    { year: 2020, description: "Descripción de experiencia de 2020" },
-    { year: 2021, description: "Descripción de experiencia de 2021" },
-    { year: 2022, description: "Descripción de experiencia de 2022" },
+    { year: "2016 - 2020", description: "Network Engineer - Telecom Argentina S.A  Córdoba, Argentina" },
+    { year: "2020 - 2023", description: "Tutor en CoderHouse (Python) - Argentina" },
+    { year: "2020 - 2023", description: "ItxSoftware - Full Stack Developer -  Argentina" },
+    { year: 2023, description: "QA Engineer - WonderSoft - Brasil" },
+    { year: "2023-Presente" , description: "TaxonomyTech Solutions - Desarrollador en React - Brasil" },
+    { year: "2023-Presente" , description: "TaxonomyTech Solutions - Desarrollador de Integraciones Mulesoft - Brasil" },
   ];
 
   return (
     <div className={styles.container}>
-      <div className={styles.header}>
-        <h2 className={styles.title}>Experiencia</h2>
-      </div>
+      <h2 className={styles.title}>Experiencia</h2>
       <div className={styles.gridContainer}>
         <div className={styles.grid}>
           {experiences.map((exp) => (
@@ -25,6 +24,7 @@ const Experience = () => {
           ))}
         </div>
       </div>
+      <Carousel />
     </div>
   );
 };

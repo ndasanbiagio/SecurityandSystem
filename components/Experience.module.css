@@ -1,32 +1,32 @@
-/* components/Experience.module.css */
 .container {
   display: flex;
   flex-direction: column;
   padding: 50px;
-  background-color: #1e1e1e; /* Fondo oscuro */
-  color: #ffffff; /* Texto blanco */
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .title {
   font-size: 2rem;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .gridContainer {
   display: flex;
-  align-items: flex-start; /* Alinear el contenido en la parte superior */
+  justify-content: center;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
-  max-width: 800px; /* Ajustar según sea necesario */
-  margin-left: auto; /* Mover la cuadrícula hacia la derecha */
+  max-width: 800px;
 }
 
 .card {
-  background-color: #333; /* Fondo para las tarjetas */
+  background-color: #333;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
@@ -34,7 +34,7 @@
 }
 
 .card:hover {
-  background-color: #444; /* Cambio de color al pasar el ratón por encima */
+  background-color: #444;
 }
 
 .card h3 {
@@ -44,5 +44,5 @@
 
 .card p {
   font-size: 1rem;
-  color: #d3d3d3; /* Texto en color gris claro */
+  color: #d3d3d3;
 }

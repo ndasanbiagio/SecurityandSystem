@@ -1,50 +1,52 @@
 /* components/Interests.module.css */
 .container {
-  text-align: center;
   padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  color: #333;
+  font-family: 'Ubuntu', sans-serif; 
+  text-align: center; 
 }
 
 .titleSection h2 {
   font-size: 2rem;
-  margin-bottom: 20px;
-  color: #ff4500; /* Color naranja medio rojo fuerte */
+  margin-bottom: 10px;
 }
 
 .textSection p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 20px;
 }
 
 .buttonSection {
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   gap: 10px;
 }
 
 .button {
   padding: 10px 20px;
-  background-color: #333333; /* Fondo oscuro */
-  color: #ffffff; /* Texto blanco */
-  text-decoration: none;
-  font-size: 1rem;
+  border: none;
   border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
   transition: background-color 0.3s;
-  display: inline-block;
 }
 
 .button:hover {
-  background-color: #555555; /* Fondo oscuro más claro al pasar el cursor */
+  background-color: #0056b3;
 }
 
-.button:focus {
-  outline: none;
+.behance {
+  background-color: #1769ff;
 }
 
-.button:active {
-  background-color: #111111; /* Fondo oscuro más oscuro al hacer clic */
+.dribbble {
+  background-color: #4caf50; 
 }
 
-.behance, .dribbble {
-  width: 120px; /* Asegurar que los botones tengan el mismo tamaño */
-  text-align: center;
+.dribbble:hover {
+  background-color: #388e3c; 
 }

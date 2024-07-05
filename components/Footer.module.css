@@ -1,14 +1,12 @@
-/* components/Footer.module.css */
 .footer {
-    background-color: #333333; /* Fondo oscuro */
-    color: #ffffff; /* Texto blanco */
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
-  
+  background-color: #1e1e1e; 
+  color: #ffffff; 
+  padding: 20px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif; 
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.75rem;
+}
