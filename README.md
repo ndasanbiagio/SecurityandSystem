@@ -17,7 +17,6 @@ Clona el repositorio:
 bash
 Copiar código
 git clone https://github.com/ndasanbiagio/SecurityandSystem
-Navega al directorio del proyecto:
 
 bash
 Copiar código
